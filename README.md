@@ -1,8 +1,6 @@
-# Supplementary Code for ICLR 2026 Submission
+# Official Code for "Neural Audio Codecs for Prompt-Driven Universal Sound Separation"
 
-This repository accompanies our ICLR 2026 paper submission:
-
-"CodecSep:  Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents"
+This repository accompanies our paper [Neural Audio Codecs for Prompt-Driven Universal Sound Separation][https://arxiv.org/abs/2509.11717]:
 
 It includes sample code, configuration files, and scripts used to generate the results reported in the paper. The purpose of this repository is to support reproducibility.
 
