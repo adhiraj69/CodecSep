@@ -1,0 +1,11 @@
+defaults:
+    - model: codecsep_16k
+    - dataset: dnr
+    - training: bs4_iter400k # debug: bs2_iter100
+    - _self_
+
+use_codec_loss: False
+sampling_rate: 16000
+resume: True
+resume_dir: NULL 
+backup_code: True

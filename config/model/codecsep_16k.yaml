@@ -1,0 +1,51 @@
+# Basic
+codecsep_params:
+  name: CodecSep
+  latent_dim: 1024
+  tracks: ['speech', 'music', 'sfx']
+  enc_params:
+    name: DACEncoder
+    d_model: 64
+    strides: [2, 4, 5, 8]
+  dec_params: 
+    name: DACDecoder
+    d_model: 1536
+    strides: [8, 5, 4, 2]
+  transformer_params:
+    name: Transformer
+    d_model: 256
+    nhead:  8
+    dim_feedforward: 1024
+    dropout: 0.1
+    batch_first: True
+    num_layers: 16
+    norm_first: True
+  separator_params:
+    name: Separator
+    num_spks: 3
+    channels: 1024 
+    block_channels: 256
+    pretrain: {}
+codec_params:
+  name: SDCodec
+  latent_dim: 1024
+  tracks: ['speech', 'music', 'sfx']
+  enc_params:
+    name: DACEncoder
+    d_model: 64
+    strides: [2, 4, 5, 8]
+  dec_params:
+    name: DACDecoder
+    d_model: 1536
+    strides: [8, 5, 4, 2]
+  quant_params:
+    name: MultiSourceRVQ
+    n_codebooks: [12, 12, 12]
+    codebook_size: [1024, 1024, 1024]
+    codebook_dim: [8, 8, 8]
+    quantizer_dropout: 0.0
+    code_jit_prob: [0.0, 0.0, 0.0]
+    code_jit_size: [3, 5, 3]
+    shared_codebooks: 0
+pretrain: {}
+
