@@ -2,7 +2,7 @@
 
 This repository accompanies our paper [CodecSep:  Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents](https://openreview.net/forum?id=r63GX9hKhC):
 
-It includes sample code, configuration files, and scripts used to generate the results reported in the paper. The purpose of this repository is to support reproducibility.
+It includes code, configuration files, and training/evaluation scripts for CodecSep.
 
 ## Enviroment 
 
