@@ -1,7 +1,7 @@
 # Official Code for "CodecSep:  Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents"
 
 This repository accompanies our paper [CodecSep:  Prompt-Driven Universal Sound Separation on Neural Audio Codec Latents](https://openreview.net/forum?id=r63GX9hKhC).
-[arXiv Link](https://arxiv.org/abs/2509.11717)
+[arXiv Link](https://arxiv.org/abs/2509.11717).
 
 The codebase is organized to support experimentation with neural audio codec latent representations through a modular codec interface.
 
