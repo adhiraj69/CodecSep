@@ -28,7 +28,6 @@ conda activate gen_audio
 
 
 
- We also download the weights of pre-trained SDCodec from the [drive link](https://drive.google.com/drive/folders/1-OjiNmtFdTUGwQF17FDMjzZgoBJJkHpG?usp=drive_link)
 ## Dataset Preparation
 
 We use the following dataset:
